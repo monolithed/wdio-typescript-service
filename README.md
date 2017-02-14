@@ -1,6 +1,6 @@
 # wdio-typescript-service
 
-> WDIO TypeScript service  
+> WDIO TypeScript service
 
 ### Installation
 
@@ -46,9 +46,9 @@ A full list of options see [here](https://github.com/TypeStrong/ts-node).
 #### Example
 
 ```typescript
-import Page from './page'
+import Page from './page';
 
-interface Test {}
+interface Test {};
 
 describe('Suite', () => {
 	let page: Test = new Page;
