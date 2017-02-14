@@ -1,0 +1,22 @@
+{
+	"name": "wdio-typescript-service",
+	"version": "0.0.1",
+	"description": "WDIO TypeScript service",
+	"author": "Alexander Abashkin <monolithed@gmail.com>",
+	"license": "MIT",
+
+	"main": "./launcher.js",
+
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:monolithed/wdio-typescript-service.git"
+	},
+
+	"engines": {
+		"node": ">=5.0"
+	},
+
+	"dependencies": {
+		"ts-node": "^2.1.0"
+	}
+}
