@@ -1,7 +1,8 @@
 {
 	"name": "wdio-typescript-service",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "WDIO TypeScript service",
+	"keywords": ["wdio", "webdriver", "webdriverio", "typescript"],
 	"author": "Alexander Abashkin <monolithed@gmail.com>",
 	"license": "MIT",
 
