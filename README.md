@@ -2,6 +2,18 @@
 
 > WDIO TypeScript service
 
+Attention: The best practice is known to use a special option of your testing framework. So, this service is an alternative to do something like:
+
+```js
+{
+	framework: 'mocha'
+
+	mochaOpts: {
+		'compilers': ['ts-node/register']
+	}
+}
+```
+
 ### Installation
 
 ```
@@ -15,8 +27,6 @@ Make sure you already have the following dependencies:
 ```json
 {
 	"typescript": "^2.1.5",
-	"eslint-plugin-typescript": "^0.1.0",
-	"typescript-eslint-parser": "^1.0.3"
 }
 ```
 
