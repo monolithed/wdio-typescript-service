@@ -3,8 +3,8 @@
 let ts = require('ts-node');
 
 module.exports = {
-	onPrepare (config) {
-		ts.register();
+	onPrepare ({ typescriptOptions = {} }) {
+		ts.register(typescriptOptions);
 	},
 
 	onComplete () {
